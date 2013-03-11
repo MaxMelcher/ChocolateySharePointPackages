@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <version>1.0.0.3088</version>
+    <authors>Microsoft</authors>
+    <owners>Max Melcher</owners>
+    <licenseUrl>http://archive.msdn.microsoft.com/ULSViewer/Project/License.aspx</licenseUrl>
+    <projectUrl>http://archive.msdn.microsoft.com/ULSViewer</projectUrl>
+    <id>ulsviewer</id>
+    <title>ULSViewer</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ULSViewer allows users with access to ULS log files to view their logs in a more user friendly interface instead of using standard log file viewers. Logs opened can be filtered, sorted, highlighted, appended, etc in order to single out the data that is important to the user. This information can be used to diagnose problems with machines running ULS services, or to monitor machines and the events they create.
+
+The ULSViewer tool runs on either 32 or 64 bit architectures of Microsoft Windows 2003 Server, Windows 2008 Server, Windows 2008 Server R2, Windows 7, Windows Vista, and Windows XP.
+
+Features
+The ULSViewer tool performs various actions against the data from ULS log files in order to better analyze it. ULSViewer allows the user to: 
+Highlight data of importance to the user on the fly
+Bookmark log entries
+Append logs to other logs in order to track trends
+Hide unimportant data
+Only view critical log entries by sorting data by severity
+Write rules to prompt the user when certain events occur
+View your data in a spreadsheet instead of the text file ULS generates
+Monitor remote machines logs that are running ULS services
+Open multiple logs at the same time in order to compare log files.
+Open logs files from multiple machines at the same time.</description>
+    <summary>ULSViewer allows users to open a ULS log file and display its contents in a user friendly format. Users can then perform advanced functions such as filtering, sorting, highlighting, loading logs, appe</summary>
+    <language>en-US</language>
+    <tags>SharePoint SP2007 SP2010 SP2013 chocolatey ULS</tags>
+  </metadata>
+  <files>
+    <file src="tools\ChocolateyInstall.ps1" target="tools\ChocolateyInstall.ps1" />
+    <file src="UlsViewer.exe" target="UlsViewer.exe" />
+  </files>
+</package>

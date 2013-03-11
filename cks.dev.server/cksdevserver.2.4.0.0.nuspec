@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>2.4.0.0</version>
+    <authors>Wes Hackett (CKSDev Team)</authors>
+    <owners>Max Melcher</owners>
+    <licenseUrl>http://cksdev.codeplex.com/license</licenseUrl>
+    <projectUrl>http://cksdev.codeplex.com/</projectUrl>
+    <id>cksdevserver</id>
+    <title>CKS Dev Server</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This project provides extensions to four core areas; Environment, Exploration, Content and Deployment. Enhancements to the Visual Studio environment include the new SharePoint References tab available on the Add Reference dialog, allowing you to easily reference any SharePoint assembly without searching the file system or GAC for it. Exploration extends the new SharePoint Explorer with advanced information about SharePoint sites such as the installed Web Parts and Master Pages or the Feature dependencies and elements. Also included in the Explorer are a variety of import functions to bring existing SharePoint items into your active solution. The Content area includes advanced templates such as Linq to SharePoint, Custom Action or Delegate Control. Project templates include the SharePoint Full Trust Proxy and the SharePoint Console Application. Our enhanced Deployment functions give you the ability to utilise quick deployment and almost a dozen other productivity enhancing deployment steps, including automated deployment (per file on change deployment) Find the complete overview of all the CKS Development Tools Edition features on the Documentation tab.
+
+With the release of Microsoft's excellent Visual Studio 2010 SharePoint Power Tools the CKSDev team have retired the Sandboxed Visual web part item template. For more information read Wouter's blog.</description>
+    <summary>This project extends the Visual Studio 2010 SharePoint project system with advanced templates and tools. Using these extensions you will be able to find relevant information from your SharePoint.</summary>
+    <releaseNotes>CKSDev 2.4</releaseNotes>
+    <language>en-US</language>
+    <tags>SharePoint SP2007 SP2010 SP2013 chocolatey cksdev</tags>
+  </metadata>
+  <files>
+    <file src="tools\ChocolateyInstall.ps1" target="tools\ChocolateyInstall.ps1" />
+    <file src="CKS.Dev.Server.vsix" target="CKS.Dev.Server.vsix" />
+  </files>
+</package>
