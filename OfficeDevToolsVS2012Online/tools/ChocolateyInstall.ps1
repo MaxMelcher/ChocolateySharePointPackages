@@ -19,10 +19,10 @@ try
   	& $tempOfficeToolsInstallerPath /install /accepteula /products:OfficeToolsForVS2012RTW
 	Write "Installing OfficeToolsForVS2012RTW completed!"
 	 
-	Write-ChocolateySuccess 'OfficeToolsForVS2012RTW has been installed!'
+	Write-ChocolateySuccess 'OfficeToolsForVS2012RTWOnline'
 }
 catch 
 {
-  	Write-ChocolateyFailure 'OfficeToolsForVS2012RTW has NOT been installed.' "$($_.Exception.Message)"
+  	Write-ChocolateyFailure 'OfficeToolsForVS2012RTWOnline' "$($_.Exception.Message)"
   	throw 
 }
