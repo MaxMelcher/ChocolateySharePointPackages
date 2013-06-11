@@ -1,0 +1,6 @@
+<Configuration Product="SharePointDesigner">
+<Display Level="none" CompletionNotice="no" SuppressModal="yes" AcceptEula="yes" />
+<COMPANYNAME Value="CAS" />
+<OptionState Id="WAC_SPD" State="absent" Children="force" />
+<Setting Id="SETUP_REBOOT" Value="Never" />
+</Configuration>
