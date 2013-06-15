@@ -9,7 +9,6 @@ try
 	. (Join-Path $scriptPath "spd-utils.ps1")
 
 	$mspConfigPath = Join-Path $scriptPath "spd-chocolatey-install-x64.msp"
-	#$targetUrl = "C:\installation\sharepointdesigner_32bit.exe"
 	$targetUrl = "http://download.microsoft.com/download/3/E/3/3E383BC4-C6EC-4DEA-A86A-C0E99F0F3BD9/sharepointdesigner_64bit.exe"
 	
 	SPDInstall $targetUrl $mspConfigPath $spdToken

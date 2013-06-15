@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>SharePointDesigner2010x32</id>
+        <version>14.0.4730.1010</version>
+        <title>SharePoint Designer 2010 (x32)</title>
+        <authors>Microsoft</authors>
+        <owners>MaxMelcher</owners>
+        <licenseUrl>http://www.microsoft.com/en-us/download/details.aspx?id=16573</licenseUrl>
+        <projectUrl>http://www.microsoft.com/en-us/download/details.aspx?id=16573</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>SharePoint Designer 2010 is the tool of choice for the rapid development of SharePoint applications.</description>
+        <summary>SharePoint Designer  2010 is the tool of choice for the rapid development of SharePoint applications.</summary>
+        <releaseNotes>Version 14.0.4730.1010</releaseNotes>
+        <language>en-US</language>
+        <tags>SharePointDesigner SharePoint SPD SPD2010 SharePoint2010 SP2010</tags>
+    </metadata>
+    <files>
+        <file src="tools\ChocolateyInstall.ps1" target="tools\ChocolateyInstall.ps1" />
+        <file src="tools\ChocolateyUninstall.ps1" target="tools\ChocolateyUninstall.ps1" />
+        <file src="tools\spd-utils.ps1" target="tools\spd-utils.ps1" />
+	<file src="tools\spd-chocolatey-install-x32.msp" target="tools\spd-chocolatey-install-x32.msp" />
+	<file src="tools\spd-chocolatey-install-x64.msp" target="tools\spd-chocolatey-install-x64.msp" />
+	<file src="tools\spd-chocolatey-uninstall.xml" target="tools\spd-chocolatey-uninstall.xml" />
+    </files>
+</package>

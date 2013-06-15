@@ -1,4 +1,4 @@
-$spdToken = "SharePointDesigner2013x64"
+$spdToken = "SharePointDesigner2013x32"
 
 try 
 { 
