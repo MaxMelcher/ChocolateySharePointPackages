@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>sastarterkitvs2010</id>
+        <version>1.0.0.1</version>
+        <title>SharePoint Service Application Starter Kit (VS 2010)</title>
+        <authors>Adam Toth</authors>
+        <owners>Adam Toth</owners>
+        <licenseUrl>http://serviceappstarterkit.codeplex.com/license</licenseUrl>
+        <projectUrl>http://serviceappstarterkit.codeplex.com/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Visual Studio project templates for creating custom SharePoint service applications. This version supports Visual Studio 2010 and SharePoint 2010 only. For Visual Studio 2012 and SharePoint 2010/2013 support, please install the Visual Studio 2012 version of this extension.</description>
+        <summary>A Visual Studio Extension that installs SharePoint project templates for creating custom SharePoint Service Applications of different flavors.</summary>
+        <releaseNotes>SharePoint Service Application Starter Kit Release Notes
+
+* Version 1.0.0.1 *
+Removed references to Microsoft.SharePoint.Portal for compatibility with SharePoint Foundation.
+Added missing string Resource that caused an issue with the Manage Service Page.
+
+* Version 1.0.0.0 *
+Initial release.
+</releaseNotes>
+        <language>en-US</language>
+        <tags>SharePoint, SP2010, chocolatey, VS2010, Visual Studio 2010, Visual Studio</tags>
+    </metadata>
+    <files>
+        <file src="tools\ChocolateyInstall.ps1" target="tools\ChocolateyInstall.ps1" />
+    </files>
+</package>
