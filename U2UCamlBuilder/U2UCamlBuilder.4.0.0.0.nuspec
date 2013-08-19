@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>U2UCamlBuilder</id>
+        <version>4.0.0.0</version>
+        <title>U2U Caml Builder</title>
+        <authors>http://u2u.be</authors>
+        <owners>Anton Vishnyakov</owners>
+        <licenseUrl>http://www.u2u.be/Software</licenseUrl>
+        <projectUrl>http://www.u2u.be/Software</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Essential tool to create and test CAML quieries by U2U team.</description>
+        <summary>Essential tool to create and test CAML quieries by U2U team.</summary>
+        <releaseNotes>Version 4.0.0.0</releaseNotes>
+        <language>en-US</language>
+        <tags>SharePoint SP2013 SP2010 SP2007 chocolatey CAML</tags>
+    </metadata>
+    <files>
+        <file src="tools\ChocolateyInstall.ps1" target="tools\ChocolateyInstall.ps1" />
+        <file src="tools\ChocolateyUninstall.ps1" target="tools\ChocolateyUninstall.ps1" />
+		<file src="distr\CamlBuilderSetup.msi" target="distr\CamlBuilderSetup.msi" />
+        <file src="distr\setup.exe" target="distr\setup.exe" />
+    </files>
+</package>
