@@ -1,0 +1,1 @@
+Install-ChocolateyVsixPackage "sastarterkitvs2010" http://visualstudiogallery.msdn.microsoft.com/a8539635-2d9a-468e-bddf-341332061ec7/file/93756/3/SAStarterKitVS2010.vsix
