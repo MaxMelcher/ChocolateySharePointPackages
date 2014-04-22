@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>SPCAF</id>
-        <version>4.3.5.3756</version>
+        <version>4.5.2.7629</version>
         <title>SharePoint Code Quality Tools (Online)</title>
         <authors>Torsten Mandelkow,Matthias Einig</authors>
         <owners>Anton Vishnyakov</owners>
@@ -11,7 +11,7 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Essential tool to ensure SharePoint code quality. SPCAF analyzes SharePoint code from .wsp and .app files and checks all contained code incl. XML for correctness, best practices etc. It also creates dependency Graphs, calculates code metrics and creates an inventory.</description>
         <summary>Essential tool to ensure SharePoint code quality. SPCAF analyzes SharePoint code from .wsp and .app files and checks all contained code incl. XML for correctness, best practices etc. It also creates dependency Graphs, calculates code metrics and creates an inventory.</summary>
-        <releaseNotes>Version 4.3.5.3756
+        <releaseNotes>Version 4.5.2.7629
 
 Changelog:
 http://docs.spcaf.com/v4/SPCAF_OVERVIEW_810_RELEASENOTES.html</releaseNotes>
