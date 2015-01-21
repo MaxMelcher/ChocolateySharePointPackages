@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>CAMLDesigner2013</id>
+        <version>1.1.0.0</version>
+        <title>CAML Designer 2013</title>
+        <authors>Karine Bosch,Andy Van Steenbergen</authors>
+        <owners>Max Melcher</owners>
+        <projectUrl>http://www.camldesigner.com/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>The functionality of this version of the tool is similar to what it offers you for SharePoint 2010:
+
+you can build CAML queries for single lists
+you can build queries that can be executed with SPSiteDataQuery
+beside the pure CAML queries, you can also get code snippets for the server-side object model, the .NET client-side object model, the JavaScript client-side object model and last but not least code snippets when working with REST.
+
+Requires .NET 4.5 Framework to be installed upfront!</description>
+        <summary>The CAML designer is a tool that helps you build your CAML queries to query SharePoint lists.
+Read more here: http://www.camldesigner.com/?p=594</summary>
+        <releaseNotes>1.1.0.0 include hidden fields and many more features.</releaseNotes>
+        <language>en-US</language>
+        <tags>SharePoint SP2010 chocolatey CAML CAMLDesigner</tags>
+        <dependencies>
+            <dependency id="DotNet4.5" version="4.5.20120822" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="tools\ChocolateyInstall.ps1" target="tools\ChocolateyInstall.ps1" />
+    </files>
+</package>
