@@ -1,12 +1,5 @@
-try { 
-  
 $scriptPath = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
-$exePath = Join-Path $(Split-Path -parent $scriptPath) 'SearchQueryTool.exe'
+Install-ChocolateyZipPackage "sp2013.searchquerytool" "https://github.com/SharePoint/PnP-Tools/blob/master/Solutions/SharePoint.Search.QueryTool/Releases/SearchQueryToolv2.7.zip?raw=true" "$scriptPath"
+$exePath = Join-Path $scriptPath 'SearchQueryTool.exe'
   
-  Install-ChocolateyDesktopLink $exePath 
- 
-  Write-ChocolateySuccess 'SearchQueryTool'
-} catch {
-  Write-ChocolateyFailure 'SearchQueryTool' "$($_.Exception.Message)"
-  throw 
-}
+Install-ChocolateyDesktopLink $exePath 
