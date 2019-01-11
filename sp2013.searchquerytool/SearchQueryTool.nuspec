@@ -1,14 +1,14 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
+    <id>SearchQueryTool</id>
     <version>2.8.2.0</version>
+    <title>SearchQueryTool</title>
     <authors>nadeemis</authors>
     <owners>Max Melcher</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>https://github.com/SharePoint/PnP-Tools/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/SharePoint/PnP-Tools/tree/master/Solutions/SharePoint.Search.QueryTool</projectUrl>
-    <id>SearchQueryTool</id>
-    <title>SearchQueryTool</title>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Learn how to build an HTTP POST query, and how the different parameters should be formatted.
 
 After running the query, you can view all types of result sets returned; Primary Results, Refinement Results, Query Rules Results, Query Suggestions, in addition to the actual raw response received from the Search service.
