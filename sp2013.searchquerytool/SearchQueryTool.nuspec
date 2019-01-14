@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>SearchQueryTool</id>
-    <version>2.7.0.1</version>
+    <version>2.8.2.0</version>
     <title>SearchQueryTool</title>
     <authors>nadeemis</authors>
     <owners>Max Melcher</owners>
@@ -20,5 +20,6 @@ Can be used to query both SharePoint 2013 On-Premise, and SharePoint Online.</de
   </metadata>
   <files>
     <file src="tools\ChocolateyInstall.ps1" target="tools\ChocolateyInstall.ps1" />
+    <file src="tools\ChocolateyUninstall.ps1" target="tools\ChocolateyUninstall.ps1" />
   </files>
 </package>
