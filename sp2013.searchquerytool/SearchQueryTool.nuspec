@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>SearchQueryTool</id>
-    <version>2.8.2.0</version>
+    <version>2.8.4.0</version>
     <title>SearchQueryTool</title>
     <authors>nadeemis</authors>
     <owners>Max Melcher</owners>
@@ -13,7 +13,7 @@
 
 After running the query, you can view all types of result sets returned; Primary Results, Refinement Results, Query Rules Results, Query Suggestions, in addition to the actual raw response received from the Search service.
 
-Can be used to query both SharePoint 2013 On-Premise, and SharePoint Online.</description>
+Can be used to query SharePoint 2013, 2016, 2019 On-Premises, and SharePoint Online.</description>
     <summary>Use this tool to test out and debug search queries against the SharePoint 2013 Search REST API.</summary>
     <language>en-US</language>
     <tags>SharePoint SP2013 chocolatey Search REST Query</tags>
